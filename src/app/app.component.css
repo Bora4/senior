@@ -1,0 +1,49 @@
+body {
+    background-color: #a2aabd;
+}
+
+div {
+    margin-top: 200px;
+    background-color: #a2aabd;
+    font-size: 26px;
+    width: 100%;
+}
+
+input{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+button{
+    font-size: 26px;
+    padding: 15px;
+}
+
+/* div {
+    font-size: 26px;
+    width: 100%;
+    margin: 20% auto;
+    padding-left: 30%;
+    box-sizing: border-box; */
+    /* background-color: red; */
+/* }
+
+div label {
+    margin-right: 40px; */
+    /* background-color: blue; */
+/* }
+
+input {
+    padding-left: 30%;
+} */

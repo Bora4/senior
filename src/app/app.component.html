@@ -1,0 +1,23 @@
+  <body>
+      <div class="d-flex justify-content-center">
+        <label for="pages">Number of Pages</label>
+        <input [formControl] = "pagenum" class="text-center" type="number" id="pages" name="pages" step="2" min="2">
+      </div>
+      <div class="d-flex justify-content-center" style="margin-top: 50px">
+        <ul>
+          <li>
+            <input [formControl] = "email" type = "text" />
+          </li>
+          <li>
+            <p>@gmail.com</p>
+          </li>
+        </ul>   
+      </div>
+      <div class="d-flex justify-content-center" style="margin-top: 10px;">
+        <button type="button" class="btn btn-primary" (click)="myFunc()">START</button>
+      </div>
+
+
+  </body>
+
+
