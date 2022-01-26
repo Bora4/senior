@@ -1,23 +1,26 @@
-  <body>
+  <!-- <body>
+    <h1 class="d-flex justify-content-center" style="margin-top: 20px;">The Book Scanner</h1>
+    <h2 style="margin-top: 50px; margin-left: 40px; margin-right: 20px;">Please enter the number of pages of the book, your gmail address without the suffix and click the button to start!</h2>
       <div class="d-flex justify-content-center">
-        <label for="pages">Number of Pages</label>
-        <input [formControl] = "pagenum" class="text-center" type="number" id="pages" name="pages" step="2" min="2">
+        <input [formControl] = "pagenum" class="text-center" type="number" id="pages" name="pages" step="2" min="2" placeholder="Number of pages">
       </div>
-      <div class="d-flex justify-content-center" style="margin-top: 50px">
+      <div class="d-flex justify-content-center">
         <ul>
           <li>
-            <input [formControl] = "email" type = "text" />
+            <input [formControl] = "email" type = "text" placeholder="Please don't type suffix" style="margin-right: 0px;" />
           </li>
           <li>
             <p>@gmail.com</p>
           </li>
         </ul>   
       </div>
-      <div class="d-flex justify-content-center" style="margin-top: 10px;">
-        <button type="button" class="btn btn-primary" (click)="myFunc()">START</button>
+      <div class="d-flex justify-content-center">
+        <button routerLink="result" type="button" class="btn btn-primary" (click)="myFunc()">START</button>
       </div>
 
 
   </body>
 
+ -->
 
+ <router-outlet></router-outlet>

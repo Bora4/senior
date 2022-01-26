@@ -1,10 +1,21 @@
-body {
-    background-color: #a2aabd;
+html, body {
+    height: auto;
+    background-image: url("../../assets/book.jpg");
+    background-size: 100%;
+    background-size: cover;
 }
+
+h2 {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
 
 div {
     margin-top: 100px;
-    background-color: #a2aabd;
     font-size: 26px;
     width: 100%;
 }

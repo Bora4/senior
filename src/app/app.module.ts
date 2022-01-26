@@ -5,12 +5,17 @@ import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ResultComponent } from './result/result.component';
+import { Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 const config: SocketIoConfig = { url: 'http://localhost:55555', options: {} };
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ResultComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

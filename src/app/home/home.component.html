@@ -1,0 +1,22 @@
+<body>
+    <h1 class="d-flex justify-content-center" style="padding-top: 20px;">The Book Scanner</h1>
+    <h2>Please enter the number of pages of the book, your Gmail address and click the button to start!</h2>   
+        
+    <form [formGroup]="myForm">
+      <div class="d-flex justify-content-center">
+        <input formControlName = "pagenum" class="text-center" type="number" id="pages" name="pages" step="2" min="2" placeholder="Number of pages">
+      </div>
+      <div class="d-flex justify-content-center">
+        <input formControlName = "email" type = "email" name="email" placeholder="Please enter your Gmail address"/>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button routerLink="result" [disabled]="!(myForm.controls['pagenum'].dirty && myForm.controls['email'].dirty)" type="submit" class="btn btn-primary" (click)="myFunc()">START</button>
+      </div>
+    </form>
+
+
+
+  </body>
+
+
+
